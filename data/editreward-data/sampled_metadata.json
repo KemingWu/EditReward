@@ -1,0 +1,862 @@
+[
+  {
+    "instruction": "Replace the text 'NIPS' with 'CVPR'",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/step1x_v2n_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/qwen_edit_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_2": {
+        "instruction_following": 2,
+        "quality_aesthetic": 4
+      },
+      "model_3": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_4": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_6": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      }
+    }
+  },
+  {
+    "instruction": "Add a fish jumping out of the water",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/step1x_v2n_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/ovis_u1_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 1,
+        "quality_aesthetic": 3
+      },
+      "model_1": {
+        "instruction_following": 2,
+        "quality_aesthetic": 2
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      },
+      "model_3": {
+        "instruction_following": 1,
+        "quality_aesthetic": 3
+      },
+      "model_4": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_6": {
+        "instruction_following": 3,
+        "quality_aesthetic": 1
+      }
+    }
+  },
+  {
+    "instruction": "Change the style to Cubism.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/flux_kontext_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/step1x_v2n_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/omnigen2_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_2": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_3": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_4": {
+        "instruction_following": 2,
+        "quality_aesthetic": 4
+      },
+      "model_5": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_6": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      }
+    }
+  },
+  {
+    "instruction": "change the season to autumn",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/qwen_edit_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/qwen_edit_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/step1x_v2n_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      },
+      "model_1": {
+        "instruction_following": 3,
+        "quality_aesthetic": 1
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 1
+      },
+      "model_3": {
+        "instruction_following": 3,
+        "quality_aesthetic": 1
+      },
+      "model_4": {
+        "instruction_following": 2,
+        "quality_aesthetic": 1
+      },
+      "model_5": {
+        "instruction_following": 2,
+        "quality_aesthetic": 1
+      },
+      "model_6": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      }
+    }
+  },
+  {
+    "instruction": "Change the background to the inside of a church.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/flux_kontext_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/step1x_v2n_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/step1x_v2n_seed42_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      },
+      "model_1": {
+        "instruction_following": 2,
+        "quality_aesthetic": 1
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_3": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_4": {
+        "instruction_following": 2,
+        "quality_aesthetic": 2
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_6": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      }
+    }
+  },
+  {
+    "instruction": "Make the person lift his head slightly.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/qwen_edit_seed2025_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_3": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_4": {
+        "instruction_following": 1,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_6": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      }
+    }
+  },
+  {
+    "instruction": "Make the image appear as if it's a woodblock print by Hokusai.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/omnigen2_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_2": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_3": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_4": {
+        "instruction_following": 2,
+        "quality_aesthetic": 4
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_6": {
+        "instruction_following": 2,
+        "quality_aesthetic": 3
+      }
+    }
+  },
+  {
+    "instruction": "Remove the dog from the image and replace with a full image cat.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/step1x_v2n_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/omnigen2_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_1": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 1
+      },
+      "model_3": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_4": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 2,
+        "quality_aesthetic": 1
+      },
+      "model_6": {
+        "instruction_following": 2,
+        "quality_aesthetic": 1
+      }
+    }
+  },
+  {
+    "instruction": "Change this to a bright sunny day with no shawdows.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/flux_kontext_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/qwen_edit_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/step1x_v2n_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      },
+      "model_1": {
+        "instruction_following": 1,
+        "quality_aesthetic": 1
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_3": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_4": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_6": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      }
+    }
+  },
+  {
+    "instruction": "Replace the sky in this image with blue skies and white clouds.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/qwen_edit_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/step1x_v2n_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/flux_kontext_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/qwen_edit_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 2,
+        "quality_aesthetic": 1
+      },
+      "model_1": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_2": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_3": {
+        "instruction_following": 4,
+        "quality_aesthetic": 2
+      },
+      "model_4": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_6": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      }
+    }
+  },
+  {
+    "instruction": "Change this into a van Gogh painting.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/qwen_edit_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/bagel_think_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      },
+      "model_1": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_3": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_4": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_6": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      }
+    }
+  },
+  {
+    "instruction": "Add green water to the toilet bowl.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/qwen_edit_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/qwen_edit_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/ovis_u1_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_3": {
+        "instruction_following": 4,
+        "quality_aesthetic": 2
+      },
+      "model_4": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_6": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      }
+    }
+  },
+  {
+    "instruction": "Adjust the image style to a gothic theme.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/qwen_edit_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/qwen_edit_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/flux_kontext_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/bagel_think_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 1,
+        "quality_aesthetic": 3
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_2": {
+        "instruction_following": 2,
+        "quality_aesthetic": 3
+      },
+      "model_3": {
+        "instruction_following": 1,
+        "quality_aesthetic": 2
+      },
+      "model_4": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 1,
+        "quality_aesthetic": 3
+      },
+      "model_6": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      }
+    }
+  },
+  {
+    "instruction": "Make the spots on the closest giraffe blue",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/step1x_v2n_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 2,
+        "quality_aesthetic": 2
+      },
+      "model_1": {
+        "instruction_following": 3,
+        "quality_aesthetic": 1
+      },
+      "model_2": {
+        "instruction_following": 1,
+        "quality_aesthetic": 1
+      },
+      "model_3": {
+        "instruction_following": 1,
+        "quality_aesthetic": 2
+      },
+      "model_4": {
+        "instruction_following": 3,
+        "quality_aesthetic": 1
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 2
+      },
+      "model_6": {
+        "instruction_following": 1,
+        "quality_aesthetic": 1
+      }
+    }
+  },
+  {
+    "instruction": "Have there be stripes on the batter's pants",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/qwen_edit_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/qwen_edit_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/step1x_v2n_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/bagel_think_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_2": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_3": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_4": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 2
+      },
+      "model_6": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      }
+    }
+  },
+  {
+    "instruction": "Remove the carrots from the photo",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/ovis_u1_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/step1x_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      },
+      "model_3": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_4": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_6": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      }
+    }
+  },
+  {
+    "instruction": "Make it look like Sandro Botticelli painted the image.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/qwen_edit_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/bagel_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 2,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_2": {
+        "instruction_following": 3,
+        "quality_aesthetic": 4
+      },
+      "model_3": {
+        "instruction_following": 1,
+        "quality_aesthetic": 3
+      },
+      "model_4": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_5": {
+        "instruction_following": 1,
+        "quality_aesthetic": 1
+      },
+      "model_6": {
+        "instruction_following": 1,
+        "quality_aesthetic": 1
+      }
+    }
+  },
+  {
+    "instruction": "Delete the camera the person in front is holding.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/bagel_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/step1x_v2n_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/flux_kontext_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/omnigen2_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 4,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_2": {
+        "instruction_following": 2,
+        "quality_aesthetic": 2
+      },
+      "model_3": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_4": {
+        "instruction_following": 1,
+        "quality_aesthetic": 1
+      },
+      "model_5": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_6": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      }
+    }
+  },
+  {
+    "instruction": "Clear the rest of the table.",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/ovis_u1_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/step1x_v2n_seed42_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/ovis_u1_seed2025_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 2,
+        "quality_aesthetic": 2
+      },
+      "model_2": {
+        "instruction_following": 1,
+        "quality_aesthetic": 3
+      },
+      "model_3": {
+        "instruction_following": 1,
+        "quality_aesthetic": 3
+      },
+      "model_4": {
+        "instruction_following": 4,
+        "quality_aesthetic": 2
+      },
+      "model_5": {
+        "instruction_following": 3,
+        "quality_aesthetic": 3
+      },
+      "model_6": {
+        "instruction_following": 2,
+        "quality_aesthetic": 2
+      }
+    }
+  },
+  {
+    "instruction": "What if the man had shades?",
+    "source_img": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/source.png",
+    "edited_imgs": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/flux_kontext_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/bagel_think_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/flux_kontext_seed2025_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/omnigen2_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/qwen_edit_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/step1x_data_gen.png",
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/ovis_u1_data_gen.png"
+    ],
+    "scores": {
+      "model_0": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_1": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_2": {
+        "instruction_following": 1,
+        "quality_aesthetic": 4
+      },
+      "model_3": {
+        "instruction_following": 3,
+        "quality_aesthetic": 2
+      },
+      "model_4": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_5": {
+        "instruction_following": 4,
+        "quality_aesthetic": 3
+      },
+      "model_6": {
+        "instruction_following": 2,
+        "quality_aesthetic": 2
+      }
+    }
+  }
+]

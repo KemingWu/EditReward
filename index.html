@@ -3,16 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-    <!-- Replace the content tag with appropriate information -->
     <meta name="description"
           content="EditReward is a VLM-based reward model trained on EditReward-Data that demonstrates superior alignment with human preferences.">
     <meta property="og:title"
           content="EditReward: A Human-Aligned Reward Model for Instruction-Guided Image Editing"/>
     <meta property="og:description"
           content="EditReward is a VLM-based reward model trained on EditReward-Data that demonstrates superior alignment with human preferences."/>
-    <meta property="og:url" content="https://tiger-ai-lab.github.io/EditReward/"/>
-    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
     <meta property="og:image" content="static/images/uniir_teaser.jpg"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
@@ -41,230 +37,48 @@
 </head>
 
 <body>
-
-<!-- <p></p>
-<br> <br><br><br> -->
-
 <section class="hero">
     <div class="hero-body">
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column has-text-centered">
-                    <!-- <h1 class="title is-1 publication-title"> -->
                     <h1 class="title is-1 vj-hero-title-cyber">
                         EditReward: A Human-Aligned Reward Model for Instruction-Guided Image Editing
                     </h1>
-                    <div class="is-size-5 publication-authors">
-                        <!-- Paper authors -->
-                        <span class="author-block">
-                                  <sup>†</sup><a href="https://kemingwu.github.io/" target="_blank">Keming Wu</a><sup>♠️♣️*</sup>,
-                        </span>
-                        <span class="author-block">
-                                    <a href="https://sicongjiang.com/" target="_blank">Sicong Jiang</a><sup>♡ϑ*</sup>,
-                        </span>
-                        <span class="author-block">
-                                <a href="https://kuwingfung.github.io/"
-                                                  target="_blank">Max Ku</a><sup>♠️</sup>,
-                        </span>
-                        <span class="author-block">
-                                Ping Nie<sup>♢</sup>,
-                        </span>
-                        <span class="author-block">
-                                Minghao Liu<sup>♡</sup>,
-                        </span>
-                        <span class="author-block">
-                                  <sup>†</sup><a href="https://wenhuchen.github.io/" target="_blank">Wenhu Chen<sup>♠️</sup></a>
-                        </span>
-                    </div>
-
-                    <div class="is-size-5 publication-authors">
-                            <span class="author-block">
-                            <sup>♠️</sup>University of Waterloo,
-                            <sup>♣️</sup>Tsinghua Univerisity,
-                            <sup>♡</sup>2077AI,
-                            <sup>ϑ</sup>McGill University,
-                            <sup>♢</sup>Independent,
-                            </span>
-
-                            <br>
-                            <span class="author-block">Corresponding to:</span>
-                            <span class="author-block"><a href="mailto:wukeming0608@gmail.com">wukeming0608@gmail.com</a>,</span>
-                            <span class="author-block"><a href="mailto:wenhuchen@uwaterloo.ca">wenhuchen@uwaterloo.ca</a></span>
-<!--                        <span class="author-block">-->
-<!--                                <small>-->
-<!--                                    cong.wei@uwaterloo.ca,-->
-<!--                                    zxiong44@wisc.edu,-->
-<!--                                    w2ren@uwaterloo.ca,-->
-<!--                                    xinrun.du@bupt.edu.cn-->
-<!--                                    ge.zhang@uwaterloo.ca,-->
-<!--                                    wenhuchen@uwaterloo.ca-->
-<!--                                </small>-->
-<!--                            </span>-->
-
-                    </div>
-
-                    <div class="column has-text-centered">
-                        <div class="publication-links">
-                                <span class="link-block">
-                                    <a href="https://arxiv.org/abs/2509.26346" target="_blank"
-                                       class="external-link button is-normal is-rounded is-dark">
-                                        <span class="icon">
-                                          <i class="ai ai-arxiv"></i>
-                                        </span>
-                                        <span>Paper</span>
-                                    </a>
-                                </span>
-
-                                <!-- Github link -->
-                                <span class="link-block">
-                                      <a href="https://github.com/TIGER-AI-Lab/EditReward" target="_blank"
-                                         class="external-link button is-normal is-rounded is-dark">
-                                      <span class="icon">
-                                        <i class="fab fa-github"></i>
-                                      </span>
-                                          <span>Code</span>
-                                      </a>
-                                </span>
-
-                                <span class="link-block">
-                                    <a href="https://huggingface.co/datasets/TIGER-Lab/EditReward-Data" target="_blank"
-                                       class="external-link button is-normal is-rounded is-dark">
-                                        <span class="icon">
-                                            <i class="fas fa-database"></i>
-                                        </span>
-                                        <span>EditReward-Data</span>
-                                    </a>
-                                  </span>
-
-                                  <span class="link-block">
-                                    <a href="https://huggingface.co/collections/TIGER-Lab/editreward-68ddf026ef9eb1510458abc6" target="_blank"
-                                       class="external-link button is-normal is-rounded is-dark">
-                                        <span class="icon">
-                                          🤗
-                                        </span>
-                                        <span>EditReward</span>
-                                    </a>
-                                  </span>
-
-                                  <span class="link-block">
-                                    <a href="https://huggingface.co/datasets/TIGER-Lab/EditReward-Bench" target="_blank"
-                                       class="external-link button is-normal is-rounded is-dark">
-                                        <span class="icon">
-                                            📊
-                                        </span>
-                                        <span>EditReward-Bench</span>
-                                    </a>
-                                  </span>
-
-    <!-- <p></p> -->
-     <br> <br> <br>
-    <section class="section hero is-light">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h1 class="title is-3">EditReward</h1>
-            <div class="content has-text-justified">
-                <p>Our contribution is in three folds: </p>
-                <p>(1) We construct and release EditReward-Data, a large-scale (200K) preference dataset for image editing, distinguished by its high-quality manual annotations and diversity of sources.</p>
-                <p>(2) We train and release EditReward, a VLM-based reward model trained on EditReward-Data that demonstrates superior alignment with human preferences.</p>
-                <p>(3) We propose EditReward-Bench, a new benchmark featuring a more challenging multi-way preference ranking task that provides a more robust evaluation of reward models. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-        <!-- Image carousel -->
-    <section class="hero">
-        <div class="hero-body">
-            <div class="container is-max-desktop">
-                <div class="columns is-centered">
-                    <div class="column is-full">
-                        <div class="item">
-                            <!-- Your image here -->
-                            <img src="static/images/pipeline.png" alt="OmniEdit" />
-                            <h2 class="subtitle">
-                                An overview of our framework, illustrating the construction of the <b>EditReward-Data</b> and the subsequent training of our reward model, <b>EditReward</b>. <b>Top:</b> The data pipeline, where we generate a diverse candidate pool from multiple state-of-the-art models and collect multi-dimensional human preference annotations. <b>Bottom:</b> The model pipeline, where EditReward is optimized on EditReward-Data using our proposed Multi-Dimensional Uncertainty-Aware Ranking Loss for training, followed by its use in inference.
-                            </h2>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="section hero is-light">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered has-text-centered">
-            <div class="column is-four-fifths">
-              <h1 class="title is-3">EditReward-Data</h1>
-              <div class="content has-text-justified">
-                <p>
-                  <b>EditReward-Data</b>, a large-scale (200K) preference dataset for image editing, distinguished by its high-quality manual annotations and diversity of sources.
-                </p>
-              </div>
-            </div>
-          </div>
+<br><br><br>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title is-3">EditReward</h1>
+        <div class="content has-text-justified">
+          <p>Our contribution is in three folds: </p>
+          <p>(1) We construct and release EditReward-Data, a large-scale (200K) preference dataset for image editing, distinguished by its high-quality manual annotations and diversity of sources.</p>
+          <p>(2) We train and release EditReward, a VLM-based reward model trained on EditReward-Data that demonstrates superior alignment with human preferences.</p>
+          <p>(3) We propose EditReward-Bench, a new benchmark featuring a more challenging multi-way preference ranking task that provides a more robust evaluation of reward models. </p>
         </div>
-      </section>
-              <!-- Image carousel -->
-      <section class="hero">
-          <div class="hero-body">
-              <div class="container is-max-desktop">
-                  <div class="columns is-centered">
-                      <div class="column is-full">
-                          <div class="item">
-                              <!-- Your image here -->
-                              <img src="static/images/dataset_stat.png" alt="OmniEdit" />
-                              <h2 class="subtitle">
-                                  Our dataset has the most diverse, highest-quality image editing pairs of any resolution.
-                              </h2>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      
-    <section class="hero">
-        <div class="columns is-centered has-text-centered">
-            <div class="column is-four-fifths">
-              <h2 class="title is-3">Experimental Results: Alignment with Humans</h2>
-              <div class="content has-text-justified">
-                <p>
-                    We evaluate our approach on a suite of three established public benchmarks and our newly proposed benchmark, designed to provide a more comprehensive assessment of image editing quality.
-                </p>
-                <div class="box m-5">
-                    <div class="content has-text-centered">
-                      <img src="static/images/main_results.png" alt="RL results" class="center" width="92%"/>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-          <div class="columns is-centered has-text-centered">
-            <div class="column is-four-fifths">
-              <h2 class="title is-3">Application: <b>EditReward</b> as a Reward</h2>
-              <div class="content has-text-justified">
-                <p>
-                    To demonstrate <b>EditReward</b>'s practical utility as a data supervisor, we conducted a data curation experiment designed to improve a state-of-the-art editing model. We employed our reward model to score the ~46,000 examples in the ShareGPT-4o-Image dataset, from which we selected a high-quality subset of the top 20,000 samples. This curated dataset was then used to fine-tune the powerful Step1X-Edit model.
-                </p>
-                <div class="box m-5">
-                    <div class="content has-text-centered">
-                      <img src="static/images/application.png" alt="RL results" class="center" width="92%"/>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-    </section>
-    <!-- End image carousel -->
-
-            <!-- Image carousel -->
-
-
-                        </div>
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column is-full">
+                    <div class="item">
+                        <img src="static/images/pipeline.png" alt="OmniEdit" />
+                        <h2 class="subtitle">
+                            An overview of our framework, illustrating the construction of the <b>EditReward-Data</b> and the subsequent training of our reward model, <b>EditReward</b>.
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -272,55 +86,1807 @@
     </div>
 </section>
 
-
-    <!-- BibTex citation -->
-    <section class="section" id="BibTeX">
-        <div class="container is-max-desktop content">
-            <h2 class="title">Citation</h2>
-            If you find our paper useful, please cite us with:
-            <br><br>
-            <pre><code>
-@article{wu2025editreward,
-  title={EditReward: A Human-Aligned Reward Model for Instruction-Guided Image Editing},
-  author={Wu, Keming and Jiang, Sicong and Ku, Max and Nie, Ping and Liu, Minghao and Chen, Wenhu},
-  journal={arXiv preprint arXiv:2509.26346},
-  year={2025}
-}
-<!-- @article{wei2024omniedit,
-  title={OmniEdit: Building Image Editing Generalist Models Through Specialist Supervision},
-  author={Wei, Cong and Xiong, Zheyang and Ren, Weiming and Du, Xinrun and Zhang, Ge and Chen, Wenhu},
-  journal={arXiv preprint arXiv:2411.07199},
-  year={2024}
-} -->
-</code></pre>
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h1 class="title is-3">EditReward-Data</h1>
+          <div class="content has-text-justified">
+            <p>
+              <b>EditReward-Data</b>, a large-scale (200K) preference dataset for image editing, distinguished by its high-quality manual annotations and diversity of sources.
+            </p>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title is-3">EditReward-Data-Gallery</h1>
+        <div class="content has-text-justified">
+          <p>Representative examples from EditReward-Data, showing diverse edits and corresponding annotations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container is-max-desktop" style="margin-top: 30px;">
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Replace the text 'NIPS' with 'CVPR'</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 3, 2, 3, 3, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 4, 4, 4, 4, 4, 4, 4</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Add a fish jumping out of the water</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 1, 2, 3, 1, 4, 3, 3</p>
+    <p><b>Quality Aesthetic:</b> 3, 2, 2, 3, 3, 4, 1</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Change the style to Cubism.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 4, 4, 3, 2, 3, 4</p>
+    <p><b>Quality Aesthetic:</b> 4, 3, 4, 3, 4, 4, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> change the season to autumn</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 3, 3, 3, 2, 2, 4</p>
+    <p><b>Quality Aesthetic:</b> 2, 1, 1, 1, 1, 1, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Change the background to the inside of a church.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 2, 3, 4, 2, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 2, 1, 3, 3, 2, 3, 4</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Make the person lift his head slightly.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 1, 3, 1, 1, 1, 1</p>
+    <p><b>Quality Aesthetic:</b> 4, 4, 4, 4, 3, 4, 4</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Make the image appear as if it's a woodblock print by Hokusai.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 4, 4, 4, 2, 4, 2</p>
+    <p><b>Quality Aesthetic:</b> 4, 4, 3, 4, 4, 4, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Remove the dog from the image and replace with a full image cat.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 3, 3, 3, 4, 2, 2</p>
+    <p><b>Quality Aesthetic:</b> 3, 3, 1, 4, 3, 1, 1</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Change this to a bright sunny day with no shawdows.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 1, 3, 4, 4, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 2, 1, 3, 3, 4, 3, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Replace the sky in this image with blue skies and white clouds.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/165533290b7c205b0dd34d1053716dcb/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/165533290b7c205b0dd34d1053716dcb/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/165533290b7c205b0dd34d1053716dcb/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/165533290b7c205b0dd34d1053716dcb/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/165533290b7c205b0dd34d1053716dcb/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/165533290b7c205b0dd34d1053716dcb/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/165533290b7c205b0dd34d1053716dcb/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/165533290b7c205b0dd34d1053716dcb/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 2, 3, 4, 4, 3, 4, 4</p>
+    <p><b>Quality Aesthetic:</b> 1, 3, 4, 2, 3, 3, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Change this into a van Gogh painting.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 3, 3, 4, 4, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 2, 4, 4, 3, 4, 4, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Add green water to the toilet bowl.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 4, 3, 4, 3, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 4, 3, 4, 2, 3, 3, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Adjust the image style to a gothic theme.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 1, 4, 2, 1, 3, 1, 1</p>
+    <p><b>Quality Aesthetic:</b> 3, 4, 3, 2, 3, 3, 4</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Make the spots on the closest giraffe blue</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 2, 3, 1, 1, 3, 4, 1</p>
+    <p><b>Quality Aesthetic:</b> 2, 1, 1, 2, 1, 2, 1</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Have there be stripes on the batter's pants</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 4, 4, 1, 4, 4, 4</p>
+    <p><b>Quality Aesthetic:</b> 3, 3, 3, 4, 3, 2, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Remove the carrots from the photo</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 4, 3, 4, 3, 4, 4</p>
+    <p><b>Quality Aesthetic:</b> 3, 4, 2, 4, 3, 3, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Make it look like Sandro Botticelli painted the image.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 2, 4, 3, 1, 4, 1, 1</p>
+    <p><b>Quality Aesthetic:</b> 4, 4, 4, 3, 4, 1, 1</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Delete the camera the person in front is holding.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 4, 2, 1, 1, 1, 3</p>
+    <p><b>Quality Aesthetic:</b> 4, 3, 2, 4, 1, 4, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Clear the rest of the table.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 1, 2, 1, 1, 4, 3, 2</p>
+    <p><b>Quality Aesthetic:</b> 4, 2, 3, 3, 2, 3, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> What if the man had shades?</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 1, 4, 1, 3, 4, 4, 2</p>
+    <p><b>Quality Aesthetic:</b> 4, 3, 4, 2, 3, 3, 2</p>
+  </div>
+</div>
+<hr>
+</div>
+</section>
+
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title is-3">EditReward-Data-Gallery</h1>
+        <div class="content has-text-justified">
+          <p>Representative examples from EditReward-Data, showing diverse edits and corresponding annotations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container is-max-desktop" style="margin-top: 30px;">
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Replace the text 'NIPS' with 'CVPR'</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/0cf1208c4cfe6b460aaa6c4e01af30a3/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 3, 2, 3, 3, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 4, 4, 4, 4, 4, 4, 4</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Add a fish jumping out of the water</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/25b87e088b5e1f0da1e743f65cf59634_afd7501b6755faf7f287b60d5b80389a66e0f9c146ec1ba951be0e66088df881/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 1, 2, 3, 1, 4, 3, 3</p>
+    <p><b>Quality Aesthetic:</b> 3, 2, 2, 3, 3, 4, 1</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Change the style to Cubism.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e9c04cb09adc94fec2871bfa7d8c8be7_605411c3f4ea3e42f4aad35656182d116163efc601e2f8d855e96479b30b5b26/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 4, 4, 3, 2, 3, 4</p>
+    <p><b>Quality Aesthetic:</b> 4, 3, 4, 3, 4, 4, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> change the season to autumn</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/a95705325f59d10338e60a703cea7da4aab50af53d49a02f8d361d731e3be33a/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 3, 3, 3, 2, 2, 4</p>
+    <p><b>Quality Aesthetic:</b> 2, 1, 1, 1, 1, 1, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Change the background to the inside of a church.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/9f8be86aa1a04e997f120d31624023ec_0d2cdb2ac1b55becb325264b92abf9fd6bdbdb68b47422b1d48076ce7c525817/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 2, 3, 4, 2, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 2, 1, 3, 3, 2, 3, 4</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Make the person lift his head slightly.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e425a8b18a4ea1ded70a0b2becb01b0b/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 1, 3, 1, 1, 1, 1</p>
+    <p><b>Quality Aesthetic:</b> 4, 4, 4, 4, 3, 4, 4</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Make the image appear as if it's a woodblock print by Hokusai.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/5fecc564a38bcf3867aa20875ca32a1b_3599bf1befa58ddc98c7018f3c9e92fda6eeab73b7719eded3ca02a3c960c307/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 4, 4, 4, 2, 4, 2</p>
+    <p><b>Quality Aesthetic:</b> 4, 4, 3, 4, 4, 4, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Remove the dog from the image and replace with a full image cat.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/582eab04979bd9d087e169ea25cb7fd3_6a5ed7668592b97be22f4d706dc5ba8ed5654b35829417742c48e5c8d0d18423/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 3, 3, 3, 4, 2, 2</p>
+    <p><b>Quality Aesthetic:</b> 3, 3, 1, 4, 3, 1, 1</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Change this to a bright sunny day with no shawdows.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/491fe50ba6e9c1a3fdbe3b482f5cbb27_d3f1790cf709249f705512802f92d3da4fc7a0089a4c21e299aacdfd1c3a4a6f/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 1, 3, 4, 4, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 2, 1, 3, 3, 4, 3, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Replace the sky in this image with blue skies and white clouds.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/165533290b7c205b0dd34d1053716dcb/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 2, 3, 4, 4, 3, 4, 4</p>
+    <p><b>Quality Aesthetic:</b> 1, 3, 4, 2, 3, 3, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Change this into a van Gogh painting.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/c3c59312a056d5c1c095458ca4c0ddb6_a7d2dbd44c5c4929ba3c7456ec91c70b1796826b512b625e939c7a4c45ad5ef0/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 3, 3, 4, 4, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 2, 4, 4, 3, 4, 4, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Add green water to the toilet bowl.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/8393096cec0780e57d27bfaec36655c1_b69dd348f517050009cc350203c5aa1e157fd044bbe902d77dc330d9cbde65e3/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 3, 4, 3, 4, 3, 4, 3</p>
+    <p><b>Quality Aesthetic:</b> 4, 3, 4, 2, 3, 3, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Adjust the image style to a gothic theme.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/53d3ea8751230795aaa6ce6bf85669dc/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 1, 4, 2, 1, 3, 1, 1</p>
+    <p><b>Quality Aesthetic:</b> 3, 4, 3, 2, 3, 3, 4</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Make the spots on the closest giraffe blue</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/6043cc8d4979af6c9d2cd3a026df7cc6_5db22cd199024889decaa024c73f3277d28201f9c25dda76ee1b274e1b46370a/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 2, 3, 1, 1, 3, 4, 1</p>
+    <p><b>Quality Aesthetic:</b> 2, 1, 1, 2, 1, 2, 1</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Have there be stripes on the batter's pants</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/f5318bd82d54795d6d3a71bb21ff4243/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 4, 4, 1, 4, 4, 4</p>
+    <p><b>Quality Aesthetic:</b> 3, 3, 3, 4, 3, 2, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Remove the carrots from the photo</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/ba4b66657c1fc0c324c5608183405986_63d17cbffe427c2c7c8fd179d76e2ce868c8ad27743f2953003a6790743e51ce/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 4, 3, 4, 3, 4, 4</p>
+    <p><b>Quality Aesthetic:</b> 3, 4, 2, 4, 3, 3, 3</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Make it look like Sandro Botticelli painted the image.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/qwen_edit_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/08fc91a63f0206e59a076f66785daaae_fe0998e34c9b193ce74740db8d4e463fc4a603a799f740a1a8e63a2692bfc10f/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 2, 4, 3, 1, 4, 1, 1</p>
+    <p><b>Quality Aesthetic:</b> 4, 4, 4, 3, 4, 1, 1</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Delete the camera the person in front is holding.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/bagel_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/step1x_v2n_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/e00b0b1f60b478aa220e652112b59fd1_cc4aedac783692e805adee5af613861d05979ced08bb59844c201a25882da2a4/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 4, 4, 2, 1, 1, 1, 3</p>
+    <p><b>Quality Aesthetic:</b> 4, 3, 2, 4, 1, 4, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> Clear the rest of the table.</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/step1x_v2n_seed42_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x_v2n_seed42</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/b73314cd97d19bf7f7cef165c1522ed0/ovis_u1_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1_seed2025</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 1, 2, 1, 1, 4, 3, 2</p>
+    <p><b>Quality Aesthetic:</b> 4, 2, 3, 3, 2, 3, 2</p>
+  </div>
+</div>
+<hr>
+<div class="example-block" style="margin-bottom: 40px;">
+  <h2 class="subtitle"><b>Instruction:</b> What if the man had shades?</h2>
+  <div class="image-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/source.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div><b>source</b></div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/flux_kontext_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/bagel_think_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>bagel_think</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/flux_kontext_seed2025_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>flux_kontext_seed2025</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/omnigen2_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>omnigen2</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/qwen_edit_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>qwen_edit</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/step1x_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>step1x</div>
+    </div>
+    <div class="image-col">
+      <img src="/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/editreward-data/cd0508cd061f9a7cdc6f334102ba8dff/ovis_u1_data_gen.png" style="width:180px; border:1px solid #ccc; border-radius:6px;">
+      <div>ovis_u1</div>
+    </div>
+  </div>
+  <div style="margin-top:10px; text-align:center;">
+    <p><b>Instruction Following:</b> 1, 4, 1, 3, 4, 4, 2</p>
+    <p><b>Quality Aesthetic:</b> 4, 3, 4, 2, 3, 3, 2</p>
+  </div>
+</div>
+<hr>
+</div>
+</section>
+
+
+<section class="hero">
+  <div class="hero-body">
+      <div class="container is-max-desktop">
+          <div class="columns is-centered">
+              <div class="column is-full">
+                  <div class="item">
+                      <img src="static/images/dataset_stat.png" alt="OmniEdit" />
+                      <h2 class="subtitle">
+                          Our dataset has the most diverse, highest-quality image editing pairs of any resolution.
+                      </h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- ✅ NEW SECTION: EditReward-Data-Gallery -->
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h1 class="title is-3">EditReward-Data-Gallery</h1>
+                <div class="content has-text-justified">
+                    <p>
+                        Below we showcase representative examples from <b>EditReward-Data</b>, including the editing instructions, source images, edited results, and their human preference annotations for <b>instruction following</b> and <b>visual quality</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 示例展示区 -->
+        <div id="gallery-container" class="columns is-multiline is-centered" style="margin-top: 2em;">
+
+            <!-- Each example group -->
+            <!-- These will be auto-generated by Python -->
+            <!-- Example static placeholder -->
+            <div class="column is-full has-text-centered box" style="margin-bottom: 2em;">
+                <div class="columns is-centered">
+                    <div class="column">
+                        <img src="static/gallery/sample1_source.jpg" alt="source" style="max-width: 200px; border: 1px solid #ccc; margin: 5px;">
+                        <img src="static/gallery/sample1_modelA_data_gen_1.jpg" alt="edited" style="max-width: 200px; border: 1px solid #ccc; margin: 5px;">
+                        <img src="static/gallery/sample1_modelB_data_gen_2.jpg" alt="edited" style="max-width: 200px; border: 1px solid #ccc; margin: 5px;">
+                    </div>
+                </div>
+                <p><b>instruction_following:</b> 0.92</p>
+                <p><b>quality_aesthetic:</b> 0.88</p>
+            </div>
+
+            <!-- More groups will be appended automatically -->
+
+        </div>
+    </div>
+</section>
+<!-- ✅ END NEW SECTION -->
 
 <footer class="footer">
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-8">
                 <div class="content">
-
                     <p>
-                        This page was built using the <a
-                            href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic
-                        Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io"
-                                                                                target="_blank">Nerfies</a> project
-                        page. You are free to borrow the of this website, we just ask that you link back to this page in
-                        the footer. <br> This website is licensed under a <a rel="license"
-                                                                             href="http://creativecommons.org/licenses/by-sa/4.0/"
-                                                                             target="_blank">Creative
-                        Commons Attribution-ShareAlike 4.0 International License</a>.
+                        This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                        You are free to borrow the layout of this website, we just ask that you link back to this page in the footer. <br>
+                        This website is licensed under a <a rel="license"
+                        href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+                        Creative Commons Attribution-ShareAlike 4.0 International License</a>.
                     </p>
-
                 </div>
             </div>
         </div>
     </div>
 </footer>
 
-</body>
 <style>
     .buttonGroup {
         text-align: center;
@@ -338,4 +1904,5 @@
     }
 </style>
 
+</body>
 </html>
