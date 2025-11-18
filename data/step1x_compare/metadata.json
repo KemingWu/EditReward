@@ -1,0 +1,102 @@
+[
+  {
+    "key": "0a92bb3a2f79ce8f79a6818701b95efa",
+    "task_type": "subject-replace",
+    "instruction_language": "en",
+    "instruction": "Change the character into a male.",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a92bb3a2f79ce8f79a6818701b95efa/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a92bb3a2f79ce8f79a6818701b95efa/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a92bb3a2f79ce8f79a6818701b95efa/after.png"
+  },
+  {
+    "key": "0a406290c07e7b1837c0f3bcddbeb8d2",
+    "task_type": "motion_change",
+    "instruction_language": "en",
+    "instruction": "Generate an image of the character smiling based on this photo.",
+    "intersection_exist": false,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a406290c07e7b1837c0f3bcddbeb8d2/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a406290c07e7b1837c0f3bcddbeb8d2/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a406290c07e7b1837c0f3bcddbeb8d2/after.png"
+  },
+  {
+    "key": "0a4769356f68ed88de0d0eb3aba89eb6",
+    "task_type": "motion_change",
+    "instruction_language": "en",
+    "instruction": "Change the man's gesture to raising his hands",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a4769356f68ed88de0d0eb3aba89eb6/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a4769356f68ed88de0d0eb3aba89eb6/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0a4769356f68ed88de0d0eb3aba89eb6/after.png"
+  },
+  {
+    "key": "0c8ea3779a6497c2b743c962a8231d1f",
+    "task_type": "text_change",
+    "instruction_language": "en",
+    "instruction": "Replace the text 'duolingo' with 'greenowl'",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0c8ea3779a6497c2b743c962a8231d1f/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0c8ea3779a6497c2b743c962a8231d1f/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0c8ea3779a6497c2b743c962a8231d1f/after.png"
+  },
+  {
+    "key": "0cf6ae6de96b2d07c717f8c3bf9517fa",
+    "task_type": "material_alter",
+    "instruction_language": "en",
+    "instruction": "Change the cup in hand to ceramic.",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0cf6ae6de96b2d07c717f8c3bf9517fa/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0cf6ae6de96b2d07c717f8c3bf9517fa/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0cf6ae6de96b2d07c717f8c3bf9517fa/after.png"
+  },
+  {
+    "key": "0f6baa8d76c35f11200abb099692ed18",
+    "task_type": "material_alter",
+    "instruction_language": "en",
+    "instruction": "Change the bear’s material to glass.",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0f6baa8d76c35f11200abb099692ed18/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0f6baa8d76c35f11200abb099692ed18/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0f6baa8d76c35f11200abb099692ed18/after.png"
+  },
+  {
+    "key": "0f7f956de6cdaff845d738075fa2fa16",
+    "task_type": "text_change",
+    "instruction_language": "en",
+    "instruction": "Replace the text 'SUMMER' with 'WINTER'",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0f7f956de6cdaff845d738075fa2fa16/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0f7f956de6cdaff845d738075fa2fa16/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/0f7f956de6cdaff845d738075fa2fa16/after.png"
+  },
+  {
+    "key": "41fcd0b5de39189a4fbf4eac28ce259a",
+    "task_type": "motion_change",
+    "instruction_language": "en",
+    "instruction": "Change the bird's action to flapping its wings and flying high",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/41fcd0b5de39189a4fbf4eac28ce259a/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/41fcd0b5de39189a4fbf4eac28ce259a/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/41fcd0b5de39189a4fbf4eac28ce259a/after.png"
+  },
+  {
+    "key": "87e9e81f29177023a7b988b5557d5d3d",
+    "task_type": "color_alter",
+    "instruction_language": "en",
+    "instruction": "Change this bag to red.",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/87e9e81f29177023a7b988b5557d5d3d/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/87e9e81f29177023a7b988b5557d5d3d/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/87e9e81f29177023a7b988b5557d5d3d/after.png"
+  },
+  {
+    "key": "794bc25fba24e9c7546c7ffed818fba1",
+    "task_type": "subject-add",
+    "instruction_language": "en",
+    "instruction": "Can you add penguin eyes to this image?",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/794bc25fba24e9c7546c7ffed818fba1/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/794bc25fba24e9c7546c7ffed818fba1/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/794bc25fba24e9c7546c7ffed818fba1/after.png"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "index": 0,
+    "input_prompt": "Eliminate the skyscrapers visible in the background.",
+    "edit_reward_score": 0.6515864729881287,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/0/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/0/output.png"
+  },
+  {
+    "index": 1,
+    "input_prompt": "Make the toy car black.",
+    "edit_reward_score": 1.0191110372543335,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/1/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/1/output.png"
+  },
+  {
+    "index": 2,
+    "input_prompt": "Erase the words \"PAPERBACK COVER WITH\" from the picture.",
+    "edit_reward_score": 1.4384126663208008,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/2/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/2/output.png"
+  },
+  {
+    "index": 3,
+    "input_prompt": "Render the twilight scene, with its warmly lit wooden shack, prominent metallic satellite dish, and the oversized textured cherimoya resting on sandy ground, as a detailed monochrome graphite pencil sketch, employing fine cross hatching to articulate the distinct surfaces and the interplay of light and shadow.",
+    "edit_reward_score": 0.6161403656005859,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/3/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/3/output.png"
+  },
+  {
+    "index": 4,
+    "input_prompt": "Make the photograph resemble a painting.",
+    "edit_reward_score": 0.8211422562599182,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/4/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/4/output.png"
+  },
+  {
+    "index": 5,
+    "input_prompt": "Change the shirt color to white.",
+    "edit_reward_score": 0.8461891412734985,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/5/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/5/output.png"
+  },
+  {
+    "index": 6,
+    "input_prompt": "Change the jacket color from red to purple.",
+    "edit_reward_score": 0.8629621267318726,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/6/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/6/output.png"
+  },
+  {
+    "index": 7,
+    "input_prompt": "Render this image of a paper towel roll and a crumpled sheet, illuminated by warm light shafts from distant windows, in the profound chiaroscuro and meticulously detailed textural style characteristic of a Dutch Golden Age still life painting.",
+    "edit_reward_score": 0.9657779335975647,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/7/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/7/output.png"
+  },
+  {
+    "index": 8,
+    "input_prompt": "Make the text appear in green color.",
+    "edit_reward_score": 1.04445481300354,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/8/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/8/output.png"
+  },
+  {
+    "index": 9,
+    "input_prompt": "Alter the smaller sphere's color to blue.",
+    "edit_reward_score": 0.6253484487533569,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/9/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/9/output.png"
+  },
+  {
+    "index": 10,
+    "input_prompt": "Change the boat's color to light blue.",
+    "edit_reward_score": 0.6735312342643738,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/10/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/10/output.png"
+  },
+  {
+    "index": 11,
+    "input_prompt": "Remove the clouds in the background to create a clear sky.",
+    "edit_reward_score": 1.0991672277450562,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/11/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/11/output.png"
+  },
+  {
+    "index": 12,
+    "input_prompt": "Within the oil painting displayed on the easel, change the current muted red color of the young girl's t shirt to a vibrant, sunflower yellow, carefully maintaining the original fabric folds, subtle shadows, and the overall painterly style of the artwork.",
+    "edit_reward_score": 0.6622872948646545,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/12/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/12/output.png"
+  },
+  {
+    "index": 13,
+    "input_prompt": "Change the surface color of the armor from bronze to silver.",
+    "edit_reward_score": 0.7247350811958313,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/13/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/13/output.png"
+  },
+  {
+    "index": 14,
+    "input_prompt": "Remove the small plant on the desk from the image.",
+    "edit_reward_score": 1.417935848236084,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/14/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/14/output.png"
+  },
+  {
+    "index": 15,
+    "input_prompt": "Change the color of the man's suit jacket to white.",
+    "edit_reward_score": 0.8651668429374695,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/15/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/15/output.png"
+  },
+  {
+    "index": 16,
+    "input_prompt": "Change \"Fifth Ave\" to \"Fourth Ave\".",
+    "edit_reward_score": 0.8613987565040588,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/16/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/16/output.png"
+  },
+  {
+    "index": 17,
+    "input_prompt": "Modify the tea tin so that it features a bronze finish instead of a silver one.",
+    "edit_reward_score": 0.68603515625,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/17/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/17/output.png"
+  },
+  {
+    "index": 18,
+    "input_prompt": "Eliminate the steam coming off the dish, making sure both the background and the food are preserved and seamlessly integrated.",
+    "edit_reward_score": 0.6615433692932129,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/18/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/18/output.png"
+  },
+  {
+    "index": 19,
+    "input_prompt": "Change the color of the blue dress to red.",
+    "edit_reward_score": 0.6718969345092773,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/19/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/high/19/output.png"
+  }
+]

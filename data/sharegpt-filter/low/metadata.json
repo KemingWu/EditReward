@@ -1,0 +1,182 @@
+[
+  {
+    "index": 0,
+    "input_prompt": "Isolate the skateboard depicted in the image.",
+    "edit_reward_score": -3.474410057067871,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/0/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/0/output.png"
+  },
+  {
+    "index": 1,
+    "input_prompt": "Eliminate the scene's black car adorned with flags.",
+    "edit_reward_score": -3.486729145050049,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/1/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/1/output.png"
+  },
+  {
+    "index": 2,
+    "input_prompt": "Isolate the pillow shown in the image.",
+    "edit_reward_score": -3.516587257385254,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/2/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/2/output.png"
+  },
+  {
+    "index": 3,
+    "input_prompt": "Extract the abstract letter F from the white backdrop.",
+    "edit_reward_score": -3.5262696743011475,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/3/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/3/output.png"
+  },
+  {
+    "index": 4,
+    "input_prompt": "Isolate the flying bird from the image.",
+    "edit_reward_score": -3.4789443016052246,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/4/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/4/output.png"
+  },
+  {
+    "index": 5,
+    "input_prompt": "Isolate the image's red lamb that is standing.",
+    "edit_reward_score": -3.4966471195220947,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/5/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/5/output.png"
+  },
+  {
+    "index": 6,
+    "input_prompt": "Extract the swirling cloud patterns from the image.",
+    "edit_reward_score": -3.490938425064087,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/6/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/6/output.png"
+  },
+  {
+    "index": 7,
+    "input_prompt": "Extract the slice of cake from the image while keeping the plate intact.",
+    "edit_reward_score": -3.513301372528076,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/7/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/7/output.png"
+  },
+  {
+    "index": 8,
+    "input_prompt": "Isolate the blue design from the vase.",
+    "edit_reward_score": -3.4768757820129395,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/8/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/8/output.png"
+  },
+  {
+    "index": 9,
+    "input_prompt": "Replace the stove in the image with a potted plant.",
+    "edit_reward_score": -3.4965312480926514,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/9/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/9/output.png"
+  },
+  {
+    "index": 10,
+    "input_prompt": "Isolate the cherry in the picture.",
+    "edit_reward_score": -3.505251884460449,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/10/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/10/output.png"
+  },
+  {
+    "index": 11,
+    "input_prompt": "Isolate the wooden salad bowl depicted in the picture.",
+    "edit_reward_score": -3.498716354370117,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/11/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/11/output.png"
+  },
+  {
+    "index": 12,
+    "input_prompt": "Extract the wooden charcoal pieces in the image.",
+    "edit_reward_score": -3.507838726043701,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/12/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/12/output.png"
+  },
+  {
+    "index": 13,
+    "input_prompt": "Isolate the pretzel that is lit up by the beam of light in the image.",
+    "edit_reward_score": -3.4738669395446777,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/13/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/13/output.png"
+  },
+  {
+    "index": 14,
+    "input_prompt": "Isolate the hands that are delivering the massage in the image.",
+    "edit_reward_score": -3.5003256797790527,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/14/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/14/output.png"
+  },
+  {
+    "index": 15,
+    "input_prompt": "Extract the colorful umbrella held by the person in the image.",
+    "edit_reward_score": -3.4958510398864746,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/15/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/15/output.png"
+  },
+  {
+    "index": 16,
+    "input_prompt": "Extract the bird standing on the ground in the image.",
+    "edit_reward_score": -3.5042896270751953,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/16/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/16/output.png"
+  },
+  {
+    "index": 17,
+    "input_prompt": "Isolate the airplane shown in the image.",
+    "edit_reward_score": -3.508667230606079,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/17/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/17/output.png"
+  },
+  {
+    "index": 18,
+    "input_prompt": "Could the object drifting in space have the shape of a star?",
+    "edit_reward_score": -3.5031521320343018,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/18/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/18/output.png"
+  },
+  {
+    "index": 19,
+    "input_prompt": "Extract the person walking through the field from the image.",
+    "edit_reward_score": -3.5251641273498535,
+    "saved_input_images": [
+      "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/19/input_0.png"
+    ],
+    "saved_output_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/sharegpt-filter/low/19/output.png"
+  }
+]
