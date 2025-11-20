@@ -98,5 +98,25 @@
     "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/794bc25fba24e9c7546c7ffed818fba1/source.png",
     "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/794bc25fba24e9c7546c7ffed818fba1/before.png",
     "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/794bc25fba24e9c7546c7ffed818fba1/after.png"
+  },
+  {
+    "key": "fb71870e760822d8674699ceb7034449",
+    "task_type": "color_alter",
+    "instruction_language": "en",
+    "instruction": "alter the color of plane to pink",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/fb71870e760822d8674699ceb7034449/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/fb71870e760822d8674699ceb7034449/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/fb71870e760822d8674699ceb7034449/after.png"
+  },
+  {
+    "key": "fd82e6b33505ba16b6c64cfff4ea3895",
+    "task_type": "style_change",
+    "instruction_language": "en",
+    "instruction": "Switch to an American cartoon animation effect.",
+    "intersection_exist": true,
+    "saved_source_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/fd82e6b33505ba16b6c64cfff4ea3895/source.png",
+    "saved_before_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/fd82e6b33505ba16b6c64cfff4ea3895/before.png",
+    "saved_after_image": "/pfs/training-data/kemingwu/workspace/MyGithub_Code/Anonymous_Repo/EditReward/data/step1x_compare/fd82e6b33505ba16b6c64cfff4ea3895/after.png"
   }
 ]
